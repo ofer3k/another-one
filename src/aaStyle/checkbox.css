@@ -1,0 +1,11 @@
+input{
+    margin-bottom: 10px;
+    
+}
+label{
+    color: #7c795d; font-family: 'Trocchi', serif; font-weight: bold;margin: 0; 
+    padding: 0%; 
+    border-left: 2px solid bisque;
+    border-bottom: 2px solid bisque;
+    text-shadow: 10px solid black;
+}

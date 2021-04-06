@@ -1,0 +1,67 @@
+.alert--warning {
+    padding: 15px 30px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border-bottom: 3px solid #bf6516;
+    letter-spacing: 0.5px;
+    color: rgba(255, 255, 255, 0.8);
+    background-image: linear-gradient(#eea667, #e67e22);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  @import url("https://fonts.googleapis.com/css?family=Ubuntu:700");
+.wrap {
+  width: 50vw;
+  box-sizing: border-box;
+  line-height: 1.65;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 800px) {
+  .wrap {
+    width: 75vw;
+  }
+}
+.wrap p {
+  margin: 0 0 20px;
+  font-size: 25px;
+  color: rgb(41, 41, 41);
+}
+.wrap p:last-child {
+  margin: 0;
+}
+.wrap p a {
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  color: #c23f6b;
+}
+.wrap p a::after {
+  content: "";
+  background: rgba(236, 64, 122, 0.25);
+  position: absolute;
+  left: 12px;
+  bottom: -6px;
+  width: calc(100% - 8px);
+  height: calc(100% - 8px);
+  z-index: -1;
+  transition: 0.35s cubic-bezier(0.25, 0.1, 0, 2.05);
+}
+.wrap p a:hover:after {
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 100%;
+}
+.sum-title{
+border-top: 2px solid black;
+border-right: 2px solid black;
+
+}
+.sum{
+    /* border: 2px solid brown; */
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
